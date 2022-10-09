@@ -3,13 +3,13 @@
 
 pragma solidity ^0.8.0;
 
-import "../IERC721.sol";
+import "../ERC721.sol";
 
 /**
  * @title ERC-721 Non-Fungible Token Standard, optional metadata extension
  * @dev See https://eips.ethereum.org/EIPS/eip-721
  */
-interface IERC721Metadata is IERC721 {
+interface ERC721Metadata is ERC721 {
     /**
      * @dev Returns the token collection name.
      */
